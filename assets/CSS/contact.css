@@ -89,7 +89,6 @@ form {
     margin-top: 5%;
     font-size: 1.2em;
     color: rgb(255, 214, 81);
-    
 }
 
 fieldset {
@@ -111,31 +110,19 @@ legend {
     text-align: center;
 }
 
-
-
-
-input {
-    display: flex;
-    justify-content: center;
-  
-}
-
 input,
 select {
     display: flex;
     justify-content: center;
     border: 1px solid #F5C5C5;
     border-radius: 5px;
-    width: 300px;
+    width: 90%;
     height: 30px;
-    box-shadow: 1px 1px 2px #C0C0C0 inset;
 }
 
-li
-{
+li {
     list-style: none;
 }
-
 
 input[type=radio] {
     background-color: transparent;
@@ -145,13 +132,19 @@ input[type=radio] {
     width: 10px;
 }
 
-input[type=submit]{
+input[type=submit] {
     display: flex;
     justify-content: center;
     margin-top: 10px;
+    margin-left: 25px;
     cursor: pointer;
+    width: 90%;
     height: 40px;
     background-color: rgba(255, 214, 81, 0.556);
     font-weight: 700;
     color: white;
+}
+
+textarea {
+    margin-left: 32%;
 }
